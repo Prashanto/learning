@@ -1,0 +1,38 @@
+parallelStream
+splititerator
+collection:
+    removeif
+    collect
+list
+    replaceAll
+    sort
+
+Comparators
+    comparing
+    thenComparing: to chain multiple comparators
+    reversed
+    naturalOrder
+    nullsFirst
+    nullsLast
+
+Numbers
+    sum
+    max
+    min
+    Long.hashcode
+
+Map
+    map.getOrDefault
+    map.putIfAbsent
+    map.replace(key,value)
+    map.replace(key,oldValue,newValue)
+    map.replaceAll((key,oldvalue)->newvalue)
+    map.remove(key)
+    map.remove(key,value)
+    compute
+    computeIfPresent
+    computeIfAbsent
+    merge
+
+@nonNull
+
