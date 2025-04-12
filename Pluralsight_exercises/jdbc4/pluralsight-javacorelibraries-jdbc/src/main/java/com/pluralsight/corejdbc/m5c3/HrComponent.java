@@ -15,7 +15,7 @@ public class HrComponent {
 							String jobTitle) throws Exception {
 		
 		try(Connection connection = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/classicmodels?user=root&password=pluralsight&serverTimezone=UTC");
+				"jdbc:mysql://localhost:3306/classicmodels?user=root&password=oracle&serverTimezone=UTC");
 		
 			PreparedStatement preparedStatement = 
 				connection.prepareStatement(
@@ -51,7 +51,7 @@ public class HrComponent {
 	public int replaceSalesManager(String managerBeingReplaced, String replacementManager) throws Exception{
 		
 		Connection connection = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/classicmodels?user=root&password=pluralsight&serverTimezone=UTC");
+				"jdbc:mysql://localhost:3306/classicmodels?user=root&password=oracle&serverTimezone=UTC");
 		
 		PreparedStatement preparedStatement = 
 				  connection.prepareStatement("UPDATE employees SET reportsTo = ? WHERE reportsTo = ?");

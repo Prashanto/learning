@@ -13,7 +13,7 @@ public class OrderComponent_MC {
 		
 		try(Connection connection = 
 		DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels?"
-				+ "user=root&password=pluralsight&serverTimezone=UTC");	
+				+ "user=root&password=oracle&serverTimezone=UTC");	
 				
 		PreparedStatement orderStmnt = 
 				connection.prepareStatement(

@@ -16,7 +16,7 @@ public class DataSourceProducer {
 
 		if (mySqldataSource == null) {
 			mySqldataSource = new MysqlDataSource();
-			mySqldataSource.setPassword("pluralsight");
+			mySqldataSource.setPassword("oracle");
 			mySqldataSource.setUser("root");
 			mySqldataSource.setURL("jdbc:mysql://localhost:3306/classicmodels?serverTimezone=UTC");
 		}

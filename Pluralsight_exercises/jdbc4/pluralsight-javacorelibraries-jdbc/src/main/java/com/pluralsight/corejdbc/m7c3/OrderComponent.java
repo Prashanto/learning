@@ -13,7 +13,7 @@ public class OrderComponent {
 		RowSetFactory rowSetProvider = RowSetProvider.newFactory();
 		CachedRowSet rowSet = rowSetProvider.createCachedRowSet();
 		
-		rowSet.setUrl("jdbc:mysql://localhost:3306/classicmodels?user=root&password=pluralsight&serverTimezone=UTC");
+		rowSet.setUrl("jdbc:mysql://localhost:3306/classicmodels?user=root&password=oracle&serverTimezone=UTC");
 
 		rowSet.setCommand(queryString);
 		

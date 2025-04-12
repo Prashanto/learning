@@ -10,7 +10,7 @@ public class ProductsComponent {
 		
 		Connection connection = 
 		DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels?"
-				+ "user=root&password=pluralsight&serverTimezone=UTC");			
+				+ "user=root&password=oracle&serverTimezone=UTC");			
 		
 		
 		boolean isValid = connection.isValid(2);
