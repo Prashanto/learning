@@ -23,6 +23,7 @@
 	<description>Exercise files for the Pluralsight course, Java core libraries: JDBC by Richard Monson-Haefel</description>
 	<url>https://github.com/uncommon-design/pluralsight-javacorelibraries-jdbc.git</url>
 
+
 	<dependencies>
 
 		<!-- JDBC Dependencies -->
